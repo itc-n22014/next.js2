@@ -1,0 +1,10 @@
+.list {
+    display: flex;
+    gap: 2em;
+}
+
+@media (hoer: hover) {
+    .list a:hover {
+        color: var(--accent);
+    }
+}
